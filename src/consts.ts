@@ -22,7 +22,7 @@ export const site = {
   author: "zyfan42", // required
   avatar: '/avatar.png', // required
   motto: 'May the Force be with you.',
-  url: null,
+  url: 'https://zyfan42.github.io/',
   recentBlogSize: 5,
   archivePageSize: 25,
   postPageSize: 10,
@@ -127,7 +127,7 @@ export const infoLinks = [
   {
     icon: 'ri-rss-fill',
     name: 'rss',
-    outlink: null,
+    outlink: 'https://zyfan42.github.io/rss.xml',
   }
 ]
 
