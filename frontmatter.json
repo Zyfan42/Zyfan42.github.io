@@ -1,0 +1,129 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "blog",
+      "pageBundle": false,
+      "previewPath": "'blog'",
+      "filePrefix": null,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string",
+          "single": true
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Date",
+          "name": "date",
+          "type": "datetime",
+          "isPublishDate": true
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Category",
+          "name": "category",
+          "type": "categories"
+        },
+        {
+          "title": "Sticky",
+          "name": "sticky",
+          "type": "number",
+          "default": 0
+        },
+        {
+          "title": "MathJax",
+          "name": "mathjax",
+          "type": "boolean",
+          "default": true
+        },
+        {
+          "title": "Mermaid",
+          "name": "mermaid",
+          "type": "boolean",
+          "default": true
+        },
+        {
+          "title": "Draft",
+          "name": "draft",
+          "type": "boolean",
+          "default": false
+        },
+        {
+          "title": "Table of Contents",
+          "name": "toc",
+          "type": "boolean",
+          "default": true
+        },
+        {
+          "title": "Donate",
+          "name": "donate",
+          "type": "boolean",
+          "default": false
+        },
+        {
+          "title": "Comment",
+          "name": "comment",
+          "type": "boolean",
+          "default": true
+        }
+      ]
+    },
+    {
+      "name": "feed",
+      "pageBundle": false,
+      "previewPath": "'feed'",
+      "filePrefix": null,
+      "fields": [
+        {
+          "title": "Date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Donate",
+          "name": "donate",
+          "type": "boolean",
+          "default": false
+        },
+        {
+          "title": "Comment",
+          "name": "comment",
+          "type": "boolean",
+          "default": true
+        }
+      ]
+    }
+  ],
+  "frontMatter.framework.id": "astro",
+  "frontMatter.preview.host": "http://localhost:4321",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "blog",
+      "path": "[[workspace]]/src/content/blog",
+      "contentTypes": [
+        "blog"
+      ]
+    },
+    {
+      "title": "feed",
+      "path": "[[workspace]]/src/content/feed",
+      "contentTypes": [
+        "feed"
+      ]
+    }
+  ],
+  "frontMatter.content.publicFolder": "public",
+  "frontMatter.git.enabled": true
+}
