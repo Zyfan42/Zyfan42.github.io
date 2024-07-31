@@ -16,7 +16,7 @@
  * beian {string} Chinese policy
  */
 export const site = {
-  title: 'zyfan42 blog', // required
+  title: 'Zyfan42 Blog', // required
   favicon: '/favicon.svg', // required
   description: 'Welcome to my independent blog website! ',
   author: "zyfan42", // required
@@ -116,17 +116,17 @@ export const infoLinks = [
   },
   {
     icon: 'ri-twitter-fill',
-    name: 'twitter',
+    name: 'X',
     outlink: null,
   },
   {
     icon: 'ri-github-fill',
-    name: 'github',
+    name: 'GitHub',
     outlink: 'https://github.com/zyfan42',
   },
   {
     icon: 'ri-rss-fill',
-    name: 'rss',
+    name: 'RSS',
     outlink: 'https://zyfan42.github.io/rss.xml',
   }
 ]
@@ -179,7 +179,7 @@ export const friendshipLinks =
  * walineConfig.whiteList {string[]} set some pages not to display reaction
  */
 export const comment = {
-  enable: false,
+  enable: true,
   type: 'giscus', // waline | giscus,
   walineConfig: {
     serverUrl: null,
@@ -195,17 +195,17 @@ export const comment = {
 
   // giscus config
   giscusConfig: {
-    'data-repo': null,
-    'data-repo-id': null,
-    'data-category': null,
-    'data-category-id': null,
+    'data-repo': "zyfan42/zyfan42.github.io",
+    'data-repo-id': "R_kgDOMc7ThQ",
+    'data-category': "Announcements",
+    'data-category-id': "DIC_kwDOMc7Thc4ChSsF",
     'data-mapping': "pathname",
     'data-strict': "0",
     'data-reactions-enabled': "1",
     'data-emit-metadata': "0",
     'data-input-position': "bottom",
-    'data-theme': "light",
-    'data-lang': null,
+    'data-theme': "transparent_dark",
+    'data-lang': "zh-CN",
     'crossorigin': "anonymous",
   }
 }
