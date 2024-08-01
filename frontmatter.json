@@ -104,6 +104,22 @@
           "default": true
         }
       ]
+    },
+    {
+      "name": "About",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "donate",
+          "name": "donate",
+          "type": "boolean"
+        },
+        {
+          "title": "comment",
+          "name": "comment",
+          "type": "boolean"
+        }
+      ]
     }
   ],
   "frontMatter.framework.id": "astro",

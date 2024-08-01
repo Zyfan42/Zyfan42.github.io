@@ -247,6 +247,7 @@ html[data-theme="dark"] .markdown-body strong {
 .markdown-body [type=reset],
 .markdown-body [type=submit] {
   -webkit-appearance: button;
+  appearance: button;
 }
 
 .markdown-body [type=button]::-moz-focus-inner,
