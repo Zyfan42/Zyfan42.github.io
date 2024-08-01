@@ -1,36 +1,56 @@
 html[data-theme="dark"] .markdown-body {
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
   color-scheme: dark;
-  --color-prettylights-syntax-comment: #5c6773; /* Abyss Comment Color */
-  --color-prettylights-syntax-constant: #dcdcaa; /* Abyss Constant Color */
-  --color-prettylights-syntax-entity: #c586c0; /* Abyss Entity Color */
-  --color-prettylights-syntax-storage-modifier-import: #9cdcfe; /* Abyss Modifier Import Color */
-  --color-prettylights-syntax-entity-tag: #569cd6; /* Abyss Tag Color */
-  --color-prettylights-syntax-keyword: #c586c0; /* Abyss Keyword Color */
-  --color-prettylights-syntax-string: #ce9178; /* Abyss String Color */
-  --color-prettylights-syntax-variable: #9cdcfe; /* Abyss Variable Color */
-  --color-prettylights-syntax-brackethighlighter-unmatched: #d16969; /* Abyss Unmatched Bracket Color */
+  --color-prettylights-syntax-comment: #5c6773;
+  /* Abyss Comment Color */
+  --color-prettylights-syntax-constant: #dcdcaa;
+  /* Abyss Constant Color */
+  --color-prettylights-syntax-entity: #c586c0;
+  /* Abyss Entity Color */
+  --color-prettylights-syntax-storage-modifier-import: #9cdcfe;
+  /* Abyss Modifier Import Color */
+  --color-prettylights-syntax-entity-tag: #569cd6;
+  /* Abyss Tag Color */
+  --color-prettylights-syntax-keyword: #c586c0;
+  /* Abyss Keyword Color */
+  --color-prettylights-syntax-string: #ce9178;
+  /* Abyss String Color */
+  --color-prettylights-syntax-variable: #9cdcfe;
+  /* Abyss Variable Color */
+  --color-prettylights-syntax-brackethighlighter-unmatched: #d16969;
+  /* Abyss Unmatched Bracket Color */
   --color-prettylights-syntax-invalid-illegal-text: #f0f0f0;
   --color-prettylights-syntax-invalid-illegal-bg: #ff0000;
   --color-prettylights-syntax-carriage-return-text: #f0f0f0;
   --color-prettylights-syntax-carriage-return-bg: #d16969;
-  --color-prettylights-syntax-string-regexp: #d7ba7d; /* Abyss RegExp Color */
-  --color-prettylights-syntax-markup-list: #6796e6; /* Abyss List Color */
-  --color-prettylights-syntax-markup-heading: #dcdcaa; /* Abyss Heading Color */
-  --color-prettylights-syntax-markup-italic: #ce9178; /* Abyss Italic Color */
-  --color-prettylights-syntax-markup-bold: #d4d4d4; /* Abyss Bold Color */
+  --color-prettylights-syntax-string-regexp: #d7ba7d;
+  /* Abyss RegExp Color */
+  --color-prettylights-syntax-markup-list: #6796e6;
+  /* Abyss List Color */
+  --color-prettylights-syntax-markup-heading: #dcdcaa;
+  /* Abyss Heading Color */
+  --color-prettylights-syntax-markup-italic: #ce9178;
+  /* Abyss Italic Color */
+  --color-prettylights-syntax-markup-bold: #d4d4d4;
+  /* Abyss Bold Color */
   --color-prettylights-syntax-markup-deleted-text: #f44747;
   --color-prettylights-syntax-markup-deleted-bg: #ffcccc;
-  --color-prettylights-syntax-markup-inserted-text: #b5cea8; /* Abyss Inserted Text Color */
-  --color-prettylights-syntax-markup-inserted-bg: #323232; /* Abyss Inserted Background Color */
-  --color-prettylights-syntax-markup-changed-text: #569cd6; /* Abyss Changed Text Color */
-  --color-prettylights-syntax-markup-changed-bg: #282c34; /* Abyss Changed Background Color */
+  --color-prettylights-syntax-markup-inserted-text: #b5cea8;
+  /* Abyss Inserted Text Color */
+  --color-prettylights-syntax-markup-inserted-bg: #323232;
+  /* Abyss Inserted Background Color */
+  --color-prettylights-syntax-markup-changed-text: #569cd6;
+  /* Abyss Changed Text Color */
+  --color-prettylights-syntax-markup-changed-bg: #282c34;
+  /* Abyss Changed Background Color */
   --color-prettylights-syntax-markup-ignored-text: #d4d4d4;
   --color-prettylights-syntax-markup-ignored-bg: #1e1e1e;
   --color-prettylights-syntax-meta-diff-range: #9cdcfe;
   --color-prettylights-syntax-brackethighlighter-angle: #dcdcaa;
   --color-prettylights-syntax-sublimelinter-gutter-mark: #323232;
   --color-prettylights-syntax-constant-other-reference-link: #ce9178;
-  --color-fg-default: rgba(204, 204, 204, 1); /* Updated to match --color-text */
+  --color-fg-default: rgba(204, 204, 204, 1);
+  /* Updated to match --color-text */
   --color-fg-muted: #858585;
   --color-fg-subtle: #6a9955;
   --color-canvas-default: #1e1e1e;
@@ -45,50 +65,57 @@ html[data-theme="dark"] .markdown-body {
 }
 
 html[data-theme="light"] .markdown-body {
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
   color-scheme: light;
-  --color-prettylights-syntax-comment: #586e75; /* Solarized Light Comment Color */
-  --color-prettylights-syntax-constant: #2aa198; /* Solarized Light Constant Color */
-  --color-prettylights-syntax-entity: #6c71c4; /* Solarized Light Entity Color */
-  --color-prettylights-syntax-storage-modifier-import: #586e75; /* Solarized Light Import Color */
-  --color-prettylights-syntax-entity-tag: #859900; /* Solarized Light Tag Color */
-  --color-prettylights-syntax-keyword: #859900; /* Solarized Light Keyword Color */
-  --color-prettylights-syntax-string: #2aa198; /* Solarized Light String Color */
-  --color-prettylights-syntax-variable: #b58900; /* Solarized Light Variable Color */
-  --color-prettylights-syntax-brackethighlighter-unmatched: #dc322f; /* Solarized Light Unmatched Bracket Color */
+  --color-prettylights-syntax-comment: #586e75;
+  /* Solarized Light Comment Color */
+  --color-prettylights-syntax-constant: #2aa198;
+  /* Solarized Light Constant Color */
+  --color-prettylights-syntax-entity: #6c71c4;
+  /* Solarized Light Entity Color */
+  --color-prettylights-syntax-storage-modifier-import: #586e75;
+  /* Solarized Light Import Color */
+  --color-prettylights-syntax-entity-tag: #859900;
+  /* Solarized Light Tag Color */
+  --color-prettylights-syntax-keyword: #859900;
+  /* Solarized Light Keyword Color */
+  --color-prettylights-syntax-string: #2aa198;
+  /* Solarized Light String Color */
+  --color-prettylights-syntax-variable: #b58900;
+  /* Solarized Light Variable Color */
+  --color-prettylights-syntax-brackethighlighter-unmatched: #dc322f;
+  /* Solarized Light Unmatched Bracket Color */
   --color-prettylights-syntax-invalid-illegal-text: #fdf6e3;
   --color-prettylights-syntax-invalid-illegal-bg: #dc322f;
   --color-prettylights-syntax-carriage-return-text: #fdf6e3;
   --color-prettylights-syntax-carriage-return-bg: #cb4b16;
-  --color-prettylights-syntax-string-regexp: #d33682; /* Solarized Light RegExp Color */
-  --color-prettylights-syntax-markup-list: #b58900; /* Solarized Light List Color */
-  --color-prettylights-syntax-markup-heading: #268bd2; /* Solarized Light Heading Color */
-  --color-prettylights-syntax-markup-italic: #586e75; /* Solarized Light Italic Color */
-  --color-prettylights-syntax-markup-bold: #657b83; /* Solarized Light Bold Color */
+  --color-prettylights-syntax-string-regexp: #d33682;
+  /* Solarized Light RegExp Color */
+  --color-prettylights-syntax-markup-list: #b58900;
+  /* Solarized Light List Color */
+  --color-prettylights-syntax-markup-heading: #268bd2;
+  /* Solarized Light Heading Color */
+  --color-prettylights-syntax-markup-italic: #586e75;
+  /* Solarized Light Italic Color */
+  --color-prettylights-syntax-markup-bold: #657b83;
+  /* Solarized Light Bold Color */
   --color-prettylights-syntax-markup-deleted-text: #dc322f;
   --color-prettylights-syntax-markup-deleted-bg: #ffebe9;
-  --color-prettylights-syntax-markup-inserted-text: #859900; /* Solarized Light Inserted Text Color */
-  --color-prettylights-syntax-markup-inserted-bg: #dfdf9f; /* Solarized Light Inserted Background Color */
-  --color-prettylights-syntax-markup-changed-text: #b58900; /* Solarized Light Changed Text Color */
-  --color-prettylights-syntax-markup-changed-bg: #fdf6e3; /* Solarized Light Changed Background Color */
+  --color-prettylights-syntax-markup-inserted-text: #859900;
+  /* Solarized Light Inserted Text Color */
+  --color-prettylights-syntax-markup-inserted-bg: #dfdf9f;
+  /* Solarized Light Inserted Background Color */
+  --color-prettylights-syntax-markup-changed-text: #b58900;
+  /* Solarized Light Changed Text Color */
+  --color-prettylights-syntax-markup-changed-bg: #fdf6e3;
+  /* Solarized Light Changed Background Color */
   --color-prettylights-syntax-markup-ignored-text: #93a1a1;
   --color-prettylights-syntax-markup-ignored-bg: #073642;
   --color-prettylights-syntax-meta-diff-range: #6c71c4;
   --color-prettylights-syntax-brackethighlighter-angle: #93a1a1;
   --color-prettylights-syntax-sublimelinter-gutter-mark: #073642;
-  --color-prettylights-syntax-constant-other-reference-link: #2aa198;
-  --color-fg-default: rgba(101, 123, 131, 1); /* Updated to match --color-text */
-  --color-fg-muted: #93a1a1;
-  --color-fg-subtle: #657b83;
-  --color-canvas-default: #fdf6e3;
-  --color-canvas-subtle: #eee8d5;
-  --color-border-default: #d0d7de;
-  --color-border-muted: hsla(210, 18%, 87%, 1);
-  --color-neutral-muted: rgba(175, 184, 193, 0.2);
-  --color-accent-fg: #268bd2;
-  --color-accent-emphasis: #268bd2;
-  --color-attention-subtle: #fff8c5;
-  --color-danger-fg: #dc322f;
 }
+
 
 
 .markdown-body {
