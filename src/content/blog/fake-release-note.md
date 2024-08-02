@@ -6,7 +6,7 @@ tags:
     - Essay
 category:
     - Release
-sticky: 0
+sticky: 1
 mathjax: true
 mermaid: true
 draft: false
