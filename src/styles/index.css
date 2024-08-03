@@ -272,8 +272,8 @@ menu {
 
 .avatar {
   border-radius: 4px;
-  width: 96px;
-  height: 96px;
+  width: 128px;
+  height: 128px;
   object-fit: cover;
   background-color: transparent;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
