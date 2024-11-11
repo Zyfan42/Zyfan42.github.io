@@ -181,6 +181,7 @@ export const friendshipLinks =
 export const comment = {
   enable: true,
   type: 'giscus', // waline | giscus,
+  
   walineConfig: {
     serverUrl: null,
     lang: 'en',
@@ -197,7 +198,7 @@ export const comment = {
   giscusConfig: {
     'data-repo': "zyfan42/zyfan42.github.io",
     'data-repo-id': "R_kgDOMc7ThQ",
-    'data-category': "Announcements",
+    'data-category': "General",
     'data-category-id': "DIC_kwDOMc7Thc4ChSsF",
     'data-mapping': "pathname",
     'data-strict': "0",
