@@ -5,6 +5,6 @@ comment: true
 type: feed
 ---
 
-![Best Luck](./assets/best-luck.png)
+![Best Luck](/feed/best-luck.png)
 
 希望一直都能是那个幸运的家伙吧。
