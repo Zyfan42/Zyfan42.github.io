@@ -10,12 +10,7 @@ import {t} from '../i18n/utils'
     class="break-all first-letter tracking-wide first-letter:font-semibold first-letter:text-2xl"
   >
     {
-      body.length > 140
-        ? body.replace(/^#+/gm, "")
-              .replace(/!?\[.*?\]\(.*?\)/g, "")
-              .substring(0, 140) + "..."
-        : body.replace(/^#+/gm, "")
-              .replace(/!?\[.*?\]\(.*?\)/g, "")
+      body.split('\n')[0].replace(/^#+/gm, "").replace(/!?\[.*?\]\(.*?\)/g, "")
     }
   </p>
   <div class="flex items-center justify-between mt-2 text-sm">
